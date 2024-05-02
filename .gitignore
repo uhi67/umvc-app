@@ -1,0 +1,6 @@
+/.env
+/config/test_users.php
+/vendor/
+/version.txt
+/docker-compose.yml
+/docker-data
