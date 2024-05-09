@@ -1,3 +1,4 @@
+/.idea
 /.env
 /config/test_users.php
 /vendor/
