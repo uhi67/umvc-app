@@ -6,7 +6,7 @@ Requirements
 
 - git
 - composer (see https://getcomposer.org)
-- php >= 7.2
+- php >= 8.2
 
 Installation
 ------------
