@@ -27,7 +27,7 @@
     "psr/log": "*",
     "npm-asset/bootstrap": "^5.2.3",
     "simplesamlphp/simplesamlphp": "^2.2",
-    "uhi67/umvc": "dev-feature/php8.2"
+    "uhi67/umvc": "^2.0"
   },
   "require-dev": {
     "codeception/codeception": "*",
@@ -52,7 +52,8 @@
   },
   "config": {
     "allow-plugins": {
-      "simplesamlphp/composer-module-installer": true
+      "simplesamlphp/composer-module-installer": true,
+      "simplesamlphp/composer-xmlprovider-installer": true
     }
   },
   "repositories": [
