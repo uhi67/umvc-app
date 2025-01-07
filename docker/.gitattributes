@@ -1,0 +1,2 @@
+# Coerce Unix LF ending for Unix scripts
+*.sh text eol=lf
