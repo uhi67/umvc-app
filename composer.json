@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "php": ">=7.2",
+    "php": ">=8.2",
     "ext-iconv": "*",
     "ext-intl": "*",
     "ext-json": "*",
@@ -24,17 +24,17 @@
     "ext-pdo_sqlite": "*",
     "ext-pdo": "*",
     "ext-simplexml": "*",
-    "psr/log": "^1.1",
+    "psr/log": "*",
     "npm-asset/bootstrap": "^5.2.3",
-    "simplesamlphp/simplesamlphp": ">=v1.17.5",
-    "uhi67/umvc": "1.3.1"
+    "simplesamlphp/simplesamlphp": "^2.2",
+    "uhi67/umvc": "^2.0"
   },
   "require-dev": {
-    "codeception/codeception": "^4.0",
-    "codeception/module-asserts": "^1.3",
-    "php-webdriver/webdriver": "^1.0.1",
-    "codeception/module-filesystem": "^1.0",
-    "codeception/lib-innerbrowser": "^1.0",
+    "codeception/codeception": "*",
+    "codeception/module-asserts": "*",
+    "php-webdriver/webdriver": "*",
+    "codeception/module-filesystem": "*",
+    "codeception/lib-innerbrowser": "*",
     "codeception/module-rest": "*"
   },
   "scripts": {
@@ -52,7 +52,8 @@
   },
   "config": {
     "allow-plugins": {
-      "simplesamlphp/composer-module-installer": true
+      "simplesamlphp/composer-module-installer": true,
+      "simplesamlphp/composer-xmlprovider-installer": true
     }
   },
   "repositories": [
