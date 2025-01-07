@@ -1,0 +1,12 @@
+/runtime
+/conf
+/docker-data
+/node_modules
+/.env
+/docker-compose*
+/config/saml/metadata/private
+/config/test_users.php
+/phpdoc.phar
+/version.txt
+/www/assets/cache
+/vendor

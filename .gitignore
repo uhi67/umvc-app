@@ -5,3 +5,5 @@
 /version.txt
 /docker-compose.yml
 /docker-data
+/runtime/
+/.dockerignore
