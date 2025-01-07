@@ -1,6 +1,8 @@
 Application template for UMVC framework
 =======================================
 
+v1.0 -- 2025-01-07 
+
 Requirements
 ------------
 
@@ -27,3 +29,10 @@ More information about the UMVC framework
 -----------------------------------------
 
 See https://github.com/uhi67/umvc/blob/master/readme.md
+
+Change log
+----------
+
+## 1.0 -- 2025-01-07
+
+The first release
