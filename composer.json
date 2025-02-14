@@ -42,7 +42,7 @@
       "app\\lib\\Install::postInstall"
     ],
     "post-create-project-cmd": [
-      "uhi67\\lib\\Install::postInstall"
+      "uhi67\\umvc\\Install::postInstall"
     ]
   },
   "autoload": {

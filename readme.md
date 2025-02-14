@@ -15,7 +15,12 @@ Installation
 
 How to start a new application project
 
-1. `composer create-project --prefer-dist uhi67/umvc-app umvc-app`
+- `composer create-project --prefer-source uhi67/umvc-app umvc-app`
+
+OR if Docker is availabla
+
+- `clone uhi67/umvc-app`
+- `./build-dev-stack.sh` # Run from WSL2 Linux prompt with root user and having a valid ssh session.
 
 Next steps
 ----------
