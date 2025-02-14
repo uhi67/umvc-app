@@ -59,7 +59,7 @@ RUN mkdir -m 777 /app/runtime/cache && chown www-data /app/runtime/cache
 RUN mkdir -m 777 /app/runtime/logs && chown www-data /app/runtime/logs
 RUN mkdir -m 777 /app/runtime/mdx-cache && chown www-data /app/runtime/mdx-cache
 RUN mkdir -m 777 /app/runtime/saml && chown www-data /app/runtime/saml
-RUN mkdir -m 777 /app/www/assets/cache && chown www-data /app/www/assets/cache
+RUN mkdir -m 777 -p /app/www/assets/cache && chown www-data /app/www/assets/cache
 
 WORKDIR /app
 COPY --chmod=755 docker/entrypoint.sh /entrypoint.sh
