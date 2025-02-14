@@ -40,7 +40,7 @@ if [ "$SAML_SECRET_SALT" = "" ]; then
 fi
 
 # Initialize database and apply migrations if any
-php app migrate confirm=yes
+#php app migrate confirm=yes
 
 if [ "$HTTPS_PORT" != "" ]; then
   a2ensite https
