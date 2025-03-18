@@ -1,7 +1,7 @@
 Application template for UMVC framework
 =======================================
 
-v1.0 -- 2025-01-07 
+v1.0.1 -- 2025-03-18 
 
 Requirements
 ------------
@@ -37,6 +37,12 @@ See https://github.com/uhi67/umvc/blob/master/readme.md
 
 Change log
 ----------
+
+## 1.0.1 -- 2025-01-07
+
+- fix twig ?? vulnerability CVE-2025-24374
+- fix SAML2 sign check vulnerability CVE-2025-27773
+- fix Dockerfile issues
 
 ## 1.0 -- 2025-01-07
 
