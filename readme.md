@@ -1,7 +1,7 @@
 Application template for UMVC framework
 =======================================
 
-v1.0.1 -- 2025-03-18 
+v1.0.2 -- 2026-03-16
 
 Requirements
 ------------
@@ -37,6 +37,10 @@ See https://github.com/uhi67/umvc/blob/master/readme.md
 
 Change log
 ----------
+
+## 1.0.2 -- 2025-03-16
+
+- fix xmlseclib vulnerability - CVE-2026-32600
 
 ## 1.0.1 -- 2025-01-07
 

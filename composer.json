@@ -26,7 +26,7 @@
     "ext-simplexml": "*",
     "psr/log": "*",
     "npm-asset/bootstrap": "^5.2.3",
-    "simplesamlphp/simplesamlphp": "^2.2",
+    "simplesamlphp/simplesamlphp": "^2.4.5",
     "uhi67/umvc": "^2.0"
   },
   "require-dev": {
