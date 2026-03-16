@@ -27,7 +27,7 @@
     "psr/log": "*",
     "npm-asset/bootstrap": "^5.2.3",
     "simplesamlphp/simplesamlphp": "^2.4.5",
-    "uhi67/umvc": "^2.0"
+    "uhi67/umvc": "^3.0"
   },
   "require-dev": {
     "codeception/codeception": "*",

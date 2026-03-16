@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc69b5192b83f74729f966c8a53a787e",
+    "content-hash": "0036cb9594c5d55becc9fbacd437416e",
     "packages": [
         {
             "name": "gettext/gettext",
@@ -4689,16 +4689,16 @@
         },
         {
             "name": "uhi67/umvc",
-            "version": "2.2",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uhi67/umvc.git",
-                "reference": "bcfa2d441eee2fee02c3d7f9ed2b1e4303057720"
+                "reference": "5f0a231663e0b8f88345c4a2ffb89c00966a7180"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uhi67/umvc/zipball/bcfa2d441eee2fee02c3d7f9ed2b1e4303057720",
-                "reference": "bcfa2d441eee2fee02c3d7f9ed2b1e4303057720",
+                "url": "https://api.github.com/repos/uhi67/umvc/zipball/5f0a231663e0b8f88345c4a2ffb89c00966a7180",
+                "reference": "5f0a231663e0b8f88345c4a2ffb89c00966a7180",
                 "shasum": ""
             },
             "require": {
@@ -4715,21 +4715,25 @@
                 "psr/log": "*"
             },
             "require-dev": {
-                "codeception/codeception": "^4.0",
-                "codeception/lib-innerbrowser": "^1.0",
-                "codeception/module-asserts": "^1.3",
-                "codeception/module-filesystem": "^1.0",
-                "codeception/module-rest": "*",
-                "php-webdriver/webdriver": "^1.0.1"
+                "codeception/codeception": "^5.2.1",
+                "codeception/lib-innerbrowser": "^4.0.6",
+                "codeception/module-asserts": "^3.1.0",
+                "codeception/module-filesystem": "^3.0.1",
+                "codeception/module-rest": "^3.4.1",
+                "php-webdriver/webdriver": "^1.0",
+                "phpmailer/phpmailer": "*",
+                "simplesamlphp/simplesamlphp": "*"
+            },
+            "suggest": {
+                "phpmailer/phpmailer": "*",
+                "simplesamlphp/simplesamlphp": "*"
             },
             "type": "project",
             "autoload": {
                 "psr-4": {
-                    "Helper\\": "lib/testhelper",
-                    "testapp\\": "tests/_data/testapp",
-                    "uhi67\\umvc\\": "lib",
-                    "uhi67\\umvc\\models\\": "models",
-                    "uhi67\\umvc\\commands\\": "commands"
+                    "educalliance\\umvc\\": "lib",
+                    "educalliance\\umvc\\models\\": "models",
+                    "educalliance\\umvc\\commands\\": "commands"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4738,17 +4742,17 @@
             ],
             "authors": [
                 {
-                    "name": "uhi67",
-                    "email": "uherkovich.peter@gmail.com"
+                    "name": "Uherkovich Péter",
+                    "email": "uherkovich.peter@pte.hu"
                 }
             ],
             "description": "UMVC simple PHP framework",
-            "homepage": "https://umvc.uhisoft.hu/",
+            "homepage": "https://educalliance.eu/",
             "support": {
                 "issues": "https://github.com/uhi67/umvc/issues",
-                "source": "https://github.com/uhi67/umvc/tree/2.2"
+                "source": "https://github.com/uhi67/umvc/tree/3.0.1"
             },
-            "time": "2025-03-16T20:39:37+00:00"
+            "time": "2026-03-12T09:19:35+00:00"
         },
         {
             "name": "webmozart/assert",
