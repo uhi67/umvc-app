@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "php": ">=8.2",
+    "php": ">=8.3",
     "ext-iconv": "*",
     "ext-intl": "*",
     "ext-json": "*",
@@ -27,7 +27,7 @@
     "psr/log": "*",
     "npm-asset/bootstrap": "^5.2.3",
     "simplesamlphp/simplesamlphp": "^2.4.5",
-    "uhi67/umvc": "^3.0"
+    "uhi67/umvc": "^3.1.0+uhi67"
   },
   "require-dev": {
     "codeception/codeception": "*",

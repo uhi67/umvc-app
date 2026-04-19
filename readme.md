@@ -37,6 +37,9 @@ See https://github.com/uhi67/umvc/blob/master/readme.md
 
 Change log
 ----------
+# Next release
+
+-fix GHSA-qrr6-mg7r-m243 vulnerability
 
 ## 1.0.2 -- 2025-03-16
 
